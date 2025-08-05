@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome - Notepad</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="cloud-bg">
+    <div class="container center">
+        <h1>Welcome to Notepad</h1>
+        <p><a href="{{ url_for('register') }}">Register</a> | <a href="{{ url_for('login') }}">Login</a></p>
+    </div>
+</body>
+</html>

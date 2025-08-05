@@ -1,0 +1,57 @@
+body.cloud-bg {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #87CEFA, #f0f8ff);
+    background-size: cover;
+    color: #333;
+}
+
+.container.center {
+    text-align: center;
+    margin-top: 15%;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+.note-box {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-left {
+    margin-left: 20px;
+}
+
+.header-right {
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
